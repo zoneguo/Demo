@@ -53,6 +53,7 @@ android {
 
 tasks.withType(JavaCompile) {
     options.compilerArgs << "-Xep:ParameterComment:ERROR"
+    options.compilerArgs << "-Xlint:unchecked"
 }
 
 apply from: 'rules.gradle'
