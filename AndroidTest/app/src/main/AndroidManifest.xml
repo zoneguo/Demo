@@ -21,6 +21,12 @@
         </activity>
 
         <activity android:name=".algorithm.MainActivity" />
+
+        <activity android:name="com.zone.androidtest.android.SingleTaskActivity"
+            android:taskAffinity="com.heihei"
+            android:launchMode="singleTask">
+
+        </activity>
     </application>
 
 </manifest>
